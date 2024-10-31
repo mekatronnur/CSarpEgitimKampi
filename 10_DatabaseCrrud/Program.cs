@@ -20,7 +20,7 @@ namespace _10_DatabaseCrrud
             //Console.WriteLine("Eklemek İstediğiniz kategori Adı");
             #region Kategori Ekleme İşlemi
             ////string categoryName = Console.ReadLine();
-            ////SqlConnection sqlConnection = new SqlConnection("Data Source=IST-KAY-BT-17;Initial Catalog=EgitimKampiDB;integrated security=true");
+            ////SqlConnection sqlConnection = new SqlConnection("Data Source=IST;Initial Catalog=EgitimKampiDB;integrated security=true");
             ////sqlConnection.Open();
             ////SqlCommand sqlCommand = new SqlCommand("Insert into TBL_Category (CategoryName) values (@p1)", sqlConnection);
             ////sqlCommand.Parameters.AddWithValue("@p1", categoryName);
@@ -40,7 +40,7 @@ namespace _10_DatabaseCrrud
             ////decimal productPrice=decimal.Parse(Console.ReadLine());
 
 
-            ////SqlConnection sqlConnection = new SqlConnection("Data Source=IST-KAY-BT-17;Initial Catalog=EgitimKampiDB;integrated security=true");
+            ////SqlConnection sqlConnection = new SqlConnection("Data Source=IST;Initial Catalog=EgitimKampiDB;integrated security=true");
             ////sqlConnection.Open();
             ////SqlCommand sqlCommand = new SqlCommand("Insert into TBL_Product (ProductName,ProductPrice,ProductStatus) values (@p1,@p2,@p3 )", sqlConnection);
             ////sqlCommand.Parameters.AddWithValue("@p1", productName);
@@ -56,7 +56,7 @@ namespace _10_DatabaseCrrud
 
             #region Listeleme İşlemi
 
-            //SqlConnection sqlConnection = new SqlConnection("Data Source=IST-KAY-BT-17;Initial Catalog=EgitimKampiDB;integrated security=true");
+            //SqlConnection sqlConnection = new SqlConnection("Data Source=IST;Initial Catalog=EgitimKampiDB;integrated security=true");
             //sqlConnection.Open();
             //SqlCommand sqlCommand = new SqlCommand("SELECT ProductName,ProductPrice from TBL_Product;", sqlConnection);
             //SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
@@ -81,7 +81,7 @@ namespace _10_DatabaseCrrud
             //int Id=int.Parse(Console.ReadLine());
 
 
-            //SqlConnection sqlConnection = new SqlConnection("Data Source=IST-KAY-BT-17;Initial Catalog=EgitimKampiDB;integrated security=true");
+            //SqlConnection sqlConnection = new SqlConnection("Data Source=IST;Initial Catalog=EgitimKampiDB;integrated security=true");
             //sqlConnection.Open();
             //SqlCommand sqlCommand = new SqlCommand("Delete from TBL_Product where ProductId=@Id", sqlConnection);
             //sqlCommand.Parameters.AddWithValue("@Id", Id);
@@ -103,7 +103,7 @@ namespace _10_DatabaseCrrud
             decimal price=decimal.Parse(Console.ReadLine());
 
 
-            SqlConnection sqlConnection = new SqlConnection("Data Source=IST-KAY-BT-17;Initial Catalog=EgitimKampiDB;integrated security=true");
+            SqlConnection sqlConnection = new SqlConnection("Data Source=IST;Initial Catalog=EgitimKampiDB;integrated security=true");
             sqlConnection.Open();
             SqlCommand sqlCommand = new SqlCommand("Update  TBL_Product set  ProductName=@productname,ProductPrice=@productprice where ProductId=@productId", sqlConnection);
             sqlCommand.Parameters.AddWithValue("@productname", name);
