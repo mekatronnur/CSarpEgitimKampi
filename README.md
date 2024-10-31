@@ -55,14 +55,14 @@ Ayrıca, bir dizi içerisindeki sayılardan 3'ün katlarının toplamı hesaplan
 Son olarak, bir kelimenin karakterleri üzerinde iterasyon yapılarak her bir harfi ayrı ayrı ekrana yazdırılmıştır. Bu örnekler, foreach döngüsünün pratikte nasıl kullanıldığını ve veri yapılarıyla nasıl çalıştığını göstermektedir.
 C# Metodlar: Değer Döndüren ve Döndürmeyen Metodların Kullanımı
 
-                                          🍁8.Proje METODLAR🍁
+                                           🍁8.Proje METODLAR🍁
                                                                                             
 Bu proje, C# dilinde metodları anlamak ve kullanmak üzerine odaklanıyor. Metodlar, belirli görevleri yerine getiren kod bloklarıdır ve programın daha düzenli ve okunabilir olmasını sağlar. Proje, geriye değer döndürmeyen void metodları ile başlıyor;
 örneğin, müşteri listesini görüntüleyen bir metod tanımlanıyor. Daha sonra, kullanıcıdan alınan iki sayının toplamı ve çarpımını hesaplayan bir metod örneği verilerek, metodların nasıl çalıştığı gösteriliyor.
 Geriye değer döndüren metodlar da ele alınıyor; bir öğrencinin adı ve soyadı gibi bilgileri alarak, bu bilgileri birleştirip geri döndüren bir metod örneği sunuluyor. Ayrıca, kullanıcıdan doğum tarihini alarak yaş hesaplayan bir metod tanımlanıyor.
 Örnek uygulamada ise bir öğrencinin adı, soyadı ve sınav notları alınarak, notların ortalamasına göre öğrencinin durumunu belirleyen bir metod kullanılıyor. Proje, metodların parametre alabilme yeteneğini ve farklı veri türleriyle çalışabilme kabiliyetini vurguluyor.
 
-                                                   🍁9.Proje C# ile ADO.NET Kullanarak Veritabanı İşlemleri🍁
+                                          🍁9.Proje C# ile ADO.NET Kullanarak Veritabanı İşlemleri🍁
 
 Bu proje, ADO.NET kütüphanesini kullanarak bir SQL Server veritabanından "TBL_Catagory" adlı tabloyu sorgulayan basir bir console uygulamasıdır Kullanıcıyı veritabanından getirmek istedikleri kategori veya ürünler hakkında bilgi sağlamak üzere  bir menü sunar Proje SQL bağlantısı kurarak verileri çeker bir Datatable içine aktarır ve ardından her bir kataegori kaydını console de görüntüler.Bağlantı kapatıldıktan sonra  kullanıcı verileri incelemek için bir tuşa basana kadar program açık kalır. Bu temel veri tabanı işlemlerinin nasıl gerçekleştirecegıne dair örnek bir uygulamadır.
                                         
