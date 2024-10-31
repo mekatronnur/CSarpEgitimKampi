@@ -65,4 +65,7 @@ Geriye değer döndüren metodlar da ele alınıyor; bir öğrencinin adı ve so
                                           🍁9.Proje C# ile ADO.NET Kullanarak Veritabanı İşlemleri🍁
 
 Bu proje, ADO.NET kütüphanesini kullanarak bir SQL Server veritabanından "TBL_Catagory" adlı tabloyu sorgulayan basir bir console uygulamasıdır Kullanıcıyı veritabanından getirmek istedikleri kategori veya ürünler hakkında bilgi sağlamak üzere  bir menü sunar Proje SQL bağlantısı kurarak verileri çeker bir Datatable içine aktarır ve ardından her bir kataegori kaydını console de görüntüler.Bağlantı kapatıldıktan sonra  kullanıcı verileri incelemek için bir tuşa basana kadar program açık kalır. Bu temel veri tabanı işlemlerinin nasıl gerçekleştirecegıne dair örnek bir uygulamadır.
-                                        
+
+                                          🍁10.Proje C# ile ADO.NET Kullanarak CRUD İşlemleri🍁
+
+Bu proje, ADO.NET kütüphanesini kullanarak SQL Server veritabanından temel CRUD (Create,Read,Update,Delete) işlemlerini gerçekleştiren bir console uygulamasıdır. Kullanıcı katagoriler ve ürünler ekleyebilir listeleyebilir güncelleyebilir ve silebilir.Programda kullanıcıdan alınan verilerle SQL sorguları hazırlanmakta ve SQLCommand nesnesi aracılığıyla  veritabanına gönderilmektedir Örnek olarak ürün güncelleme işlemi kullanıcıdan ürün ID'si adı ve fiyatını alarak veritabanında güncelleme yapar. Bu C# ile veritabanı yönetiminin asıl yapılacağına dair pratik bir örnek sunar.
